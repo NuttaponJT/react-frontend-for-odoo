@@ -1,0 +1,14 @@
+.checklist-line-wrap {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.checklist-line-header-text {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.checklist-page-content {
+    font-size: 14px ! important;
+}
