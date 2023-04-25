@@ -1,0 +1,29 @@
+#responsive-navbar-nav-left > div > a {
+    padding: 0px;
+}
+
+.header-logo-image {
+    height: 50px;
+    width: 95px;
+    margin-left: 10px;
+}
+
+#responsive-navbar-nav-left {
+    
+}
+
+.header-user-dropdown > button {
+    border-width: 0px;
+    color: white;
+    font-size: 14px;
+}
+
+.header-user-dropdown > div {
+    left: unset !important;
+    right: 0px;
+}
+
+.header-user-dropdown button:hover, .header-user-dropdown button:focus {
+    background-color: unset !important;
+    box-shadow: unset !important;
+}

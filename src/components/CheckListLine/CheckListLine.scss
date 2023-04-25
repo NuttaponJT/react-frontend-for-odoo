@@ -1,0 +1,85 @@
+$checklist-line-card-header-color: rgba(0, 0, 0, .07);
+
+.checklist-line-wrap {
+    padding: 15px 15px 0px 15px;
+    display: flex;
+    align-items: center;
+    animation: drop-fade-in .7s;
+}
+
+.checklist-line-card {
+    width: 100%;
+    border: 1px grey solid;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.checklist-line-card-header {
+    width: 100%;
+    border-bottom: 1px grey solid;
+    border-radius: 15px 15px 0px 0px;
+    padding: 10px;
+    background-color: $checklist-line-card-header-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .checklist-line-card-body-right {
+        display: flex;
+    } 
+}
+
+.checklist-line-card-body {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+
+    .checklist-line-card-body-left {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start
+    }
+
+    .checklist-line-card-body-right {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end
+    }
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#dropdown-status {
+    width: 120px;
+}
+
+#dropdown-risk-level {
+    width: 120px;
+    text-align: left;
+}
+
+.btn:disabled {
+    opacity: unset;
+}
+
+@keyframes drop-fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

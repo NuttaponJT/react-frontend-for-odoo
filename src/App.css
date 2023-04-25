@@ -1,0 +1,17 @@
+.ml-auto {
+    margin-left: auto;
+}
+
+.main-body {
+    width: 100%;
+}
+
+.content-wrap {
+    padding: 20px;
+    width: 100%;
+}
+
+.text-area-style {
+    width: 100%;
+    height: 500px;
+}

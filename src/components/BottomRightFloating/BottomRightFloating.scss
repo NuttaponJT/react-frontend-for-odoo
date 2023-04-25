@@ -1,0 +1,27 @@
+.bottom-right-floating {
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.fa-layer-group-style {
+    font-size: 30px;
+    color: white;
+}
+
+.bottom-right-floating:hover {
+    filter: invert(.8);
+}
+
+.manage-checklist-menu:hover {
+    background-color: beige;
+}
